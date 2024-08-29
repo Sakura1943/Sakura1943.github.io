@@ -12,7 +12,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     posts: await getPosts(pageSize),
-    website: 'https://github.com/Sakura1943/sakunia.github.io',
+    website: 'https://github.com/Sakura1943/sakura1943.github.io',
     comment: {
       repo: 'airene/vitepress-blog-pure',
       themes: 'github-light',
@@ -34,7 +34,7 @@ export default defineConfig({
     outline: {
       label: '文章摘要'
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Sakura1943/sakunia.github.io' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Sakura1943/sakura1943.github.io' }]
   } as any,
   srcExclude: ['README.md'],
   vite: {
