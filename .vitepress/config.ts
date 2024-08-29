@@ -14,7 +14,7 @@ export default defineConfig({
     posts: await getPosts(pageSize),
     website: 'https://github.com/Sakura1943/sakura1943.github.io',
     comment: {
-      repo: 'airene/vitepress-blog-pure',
+      repo: 'Sakura1943/Sakura1943.github.io',
       themes: 'github-light',
       issueTerm: 'pathname'
     },
